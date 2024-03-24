@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:brown_mushroom"
+      }
+    },
+    "result": {
+      "id": "minecraft:chainmail_helmet",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 2220802,
+        "minecraft:custom_name": "{\"translate\":\"item.shroomified.brown_mushroom_helmet\",\"italic\":false}",
+        "minecraft:food": {
+          "nutrition": 6,
+          "saturation_modifier": 10,
+          "eat_seconds": 3,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:nausea",
+                "amplifier": 1,
+                "duration": 100
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

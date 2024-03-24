@@ -1,6 +1,6 @@
 {
-	"pack": {
-	"pack_format": 8,
-	"description": "Shrooms"
-	}
+    "pack": {
+        "description": [{"text":"Shrooms!","color":"gold"},{"text":"\nBy Hexuar","color":"yellow"}],
+        "pack_format": 36
+    }
 }
