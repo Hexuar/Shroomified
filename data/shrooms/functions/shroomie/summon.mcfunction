@@ -1,2 +1,0 @@
-summon wolf ~ ~ ~ {Silent:1b,CustomNameVisible:0b,DeathLootTable:"shrooms:shroomie",Health:50f,Tags:["Shroomie","Invisible"],Passengers:[{id:"minecraft:armor_stand",Small:1b,Marker:1b,Invisible:1b,Tags:["Shroomie"],ArmorItems:[{},{},{},{id:"minecraft:honeycomb",Count:1b,tag:{CustomModelData:2220801}}]}],CustomName:'{"text":"Shroomie","italic":false}',Attributes:[{Name:"generic.max_health",Base:50},{Name:"generic.attack_damage",Base:5}]}
-item replace entity @s weapon.mainhand with air

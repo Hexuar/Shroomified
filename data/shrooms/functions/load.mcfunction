@@ -1,1 +1,0 @@
-scoreboard objectives add shrooms.rclick minecraft.used:minecraft.warped_fungus_on_a_stick
