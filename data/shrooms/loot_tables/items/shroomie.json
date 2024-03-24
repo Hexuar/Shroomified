@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 2220801}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ctc: {id: 'shroomie', from: 'hexuar:shroomified', traits: {'item/tool': 1b}}}"
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "translate": "item.shroomified.shroomie",
+                            "italic": false,
+                            "color": "white"
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "translate": "pack.shroomified",
+                              "color": "blue",
+                              "italic": true
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

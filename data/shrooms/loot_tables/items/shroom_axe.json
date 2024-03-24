@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 2220801}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ctc: {id: 'shroom_axe', from: 'hexuar:shroomified', traits: {'item/tool': 1b, 'tool/axe': 1b}}}"
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "translate": "item.shroomified.shroom_axe",
+                            "italic": false,
+                            "color": "white"
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "translate": "pack.shroomified",
+                              "color": "blue",
+                              "italic": true
+                            }
+                          ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

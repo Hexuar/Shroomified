@@ -1,0 +1,22 @@
+   {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "111",
+            "131",
+            " 2 "
+        ],
+        "key": {
+            "1": {
+                "item": "red_mushroom_block"
+            },
+            "2": {
+                "item": "mushroom_stem"
+            },
+            "3": {
+                "item": "totem_of_undying"
+            }
+            },
+        "result": {
+            "item": "knowledge_book"
+        }
+    }

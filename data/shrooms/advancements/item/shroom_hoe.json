@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "Trigger": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "shrooms:item/shroom_hoe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "shrooms:items/give/shroom_hoe"
+    }
+}

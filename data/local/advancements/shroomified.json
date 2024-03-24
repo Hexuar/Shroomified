@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Shroomified",
+        "description": "[v1.3]",
+        "icon": {
+            "item": "iron_pickaxe",
+            "nbt": "{CustomModelData:2220801}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:hexuar",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
