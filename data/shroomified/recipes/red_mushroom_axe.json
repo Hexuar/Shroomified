@@ -21,15 +21,15 @@
         "minecraft:custom_model_data": 2220801,
         "minecraft:custom_name": "{\"translate\":\"item.shroomified.red_mushroom_axe\",\"italic\":false}",
         "minecraft:food": {
-          "nutrition": 6,
+          "nutrition": 10,
           "saturation_modifier": 10,
           "eat_seconds": 3,
           "effects": [
             {
               "effect": {
                 "id": "minecraft:nausea",
-                "amplifier": 1,
-                "duration": 100
+                "amplifier": 0,
+                "duration": 400
               }
             }
           ]
