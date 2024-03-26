@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:warped_fungus"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_leggings",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 2220802,
+        "minecraft:custom_name": "{\"translate\":\"item.shroomified.warped_fungus_leggings\",\"italic\":false}",
+        "minecraft:food": {
+          "nutrition": 10,
+          "saturation_modifier": 10,
+          "eat_seconds": 3,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:nausea",
+                "amplifier": 0,
+                "duration": 400
+              }
+            }
+          ]
+        },
+        "minecraft:trim": {
+          "material": "minecraft:copper",
+          "pattern": "shroomified:warped_fungus_armor",
+          "show_in_tooltip": false
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [-1392720744,-1405598104,-1964256382,-1268252315],
+            "name": "generic.armor",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:generic.scale",
+            "uuid": [-2059477558, 1421101780, -1814677371, 1708535377],
+            "name": "generic.scale",
+            "amount": -0.1,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:generic.max_health",
+            "uuid": [2056435275,1956989004,-1981353567,-1981402145],
+            "name": "generic.max_health",
+            "amount": -1,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ]
+      }
+    }
+  }
+  

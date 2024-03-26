@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:crimson_fungus"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_boots",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 2220803,
+        "minecraft:custom_name": "{\"translate\":\"item.shroomified.crimson_fungus_boots\",\"italic\":false}",
+        "minecraft:food": {
+          "nutrition": 10,
+          "saturation_modifier": 10,
+          "eat_seconds": 3,
+          "effects": [
+            {
+              "effect": {
+                "id": "minecraft:nausea",
+                "amplifier": 0,
+                "duration": 400
+              }
+            }
+          ]
+        },
+        "minecraft:trim": {
+          "material": "minecraft:copper",
+          "pattern": "shroomified:crimson_fungus_armor",
+          "show_in_tooltip": false
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [-1762508506,2130398403,-1763017257,-288971490],
+            "name": "generic.armor",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:generic.scale",
+            "uuid": [2023169398, 1421101780, -1814677371, 1708535377],
+            "name": "generic.scale",
+            "amount": -0.1,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:generic.max_health",
+            "uuid": [-1858027238,-1606006085,-1370069708,-235404071],
+            "name": "generic.max_health",
+            "amount": -1,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ]
+      }
+    }
+  }
+  
