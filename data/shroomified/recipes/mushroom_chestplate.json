@@ -12,7 +12,7 @@
       }
     },
     "result": {
-      "id": "minecraft:chainmail_chestplate",
+      "id": "minecraft:leather_chestplate",
       "count": 1,
       "components": {
         "minecraft:custom_model_data": 2220801,
@@ -30,7 +30,38 @@
               }
             }
           ]
-        }
+        },
+        "minecraft:trim": {
+          "material": "minecraft:copper",
+          "pattern": "shroomified:brown_mushroom_armor",
+          "show_in_tooltip": false
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [787371880,1488274200,-1826360101,-1836837938],
+            "name": "generic.armor",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:generic.scale",
+            "uuid": [1826248664, 1421101780, -1814677371, -2052502992],
+            "name": "generic.scale",
+            "amount": -0.1,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:generic.max_health",
+            "uuid": [1083190835,-1312207267,-1481374349,-244998092],
+            "name": "generic.max_health",
+            "amount": -1,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ]
       }
     }
   }

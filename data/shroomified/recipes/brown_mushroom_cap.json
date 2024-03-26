@@ -1,36 +1,74 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-      "XXX",
-      "X X"
-    ],
-    "key": {
-      "X": {
-        "item": "minecraft:brown_mushroom"
-      }
-    },
-    "result": {
-      "id": "minecraft:chainmail_helmet",
-      "count": 1,
-      "components": {
-        "minecraft:custom_model_data": 2220802,
-        "minecraft:custom_name": "{\"translate\":\"item.shroomified.brown_mushroom_helmet\",\"italic\":false}",
-        "minecraft:food": {
-          "nutrition": 10,
-          "saturation_modifier": 10,
-          "eat_seconds": 3,
-          "effects": [
-            {
-              "effect": {
-                "id": "minecraft:nausea",
-                "amplifier": 0,
-                "duration": 400
-              }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brown_mushroom"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 2220802,
+      "minecraft:custom_name": "{\"translate\":\"item.shroomified.brown_mushroom_helmet\",\"italic\":false}",
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": 10,
+        "eat_seconds": 3,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:nausea",
+              "amplifier": 0,
+              "duration": 400
             }
-          ]
+          }
+        ]
+      },
+      "minecraft:trim": {
+        "material": "minecraft:copper",
+        "pattern": "shroomified:brown_mushroom_armor",
+        "show_in_tooltip": false
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:generic.armor",
+          "uuid": [-482443764,1275940618,-1800343408,905877321],
+          "name": "generic.armor",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:generic.movement_speed",
+          "uuid": [-1805887047,1290947011,-2118617587,335219888],
+          "name": "generic.movement_speed",
+          "amount": 0.3,
+          "operation": "add_multiplied_base",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:generic.scale",
+          "uuid": [1826248664, 1421101780, -1814677371, 1708535377],
+          "name": "generic.scale",
+          "amount": -0.1,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:generic.max_health",
+          "uuid": [1823795335,1550533600,-1869617636,-989607894],
+          "name": "generic.max_health",
+          "amount": -1,
+          "operation": "add_value",
+          "slot": "head"
         }
-      }
+      ]
     }
   }
-  
+}

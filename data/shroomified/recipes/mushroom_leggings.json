@@ -12,7 +12,7 @@
       }
     },
     "result": {
-      "id": "minecraft:chainmail_leggings",
+      "id": "minecraft:leather_leggings",
       "count": 1,
       "components": {
         "minecraft:custom_model_data": 2220801,
@@ -30,7 +30,38 @@
               }
             }
           ]
-        }
+        },
+        "minecraft:trim": {
+          "material": "minecraft:copper",
+          "pattern": "shroomified:brown_mushroom_armor",
+          "show_in_tooltip": false
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [-1392720744,-1405598104,-1964256382,-1268252315],
+            "name": "generic.armor",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:generic.scale",
+            "uuid": [-2059477558, 1421101780, -1814677371, 1708535377],
+            "name": "generic.scale",
+            "amount": -0.1,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:generic.max_health",
+            "uuid": [2056435275,1956989004,-1981353567,-1981402145],
+            "name": "generic.max_health",
+            "amount": -1,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ]
       }
     }
   }
