@@ -1,7 +1,7 @@
 {
   "asset_id": "shroomified:red_mushroom_armor",
   "description": {
-    "translate": "trim_pattern.shroomified.red_mushroom_armor"
+    "translate": ""
   },
-  "template_item": "minecraft:stone"
+  "template_item": "minecraft:air"
 }
