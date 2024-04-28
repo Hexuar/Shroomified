@@ -18,7 +18,7 @@
       "minecraft:custom_name": "{\"translate\":\"item.shroomified.brown_mushroom_helmet\",\"italic\":false}",
       "minecraft:food": {
         "nutrition": 10,
-        "saturation_modifier": 10,
+        "saturation": 20,
         "eat_seconds": 3,
         "effects": [
           {
